@@ -4,7 +4,7 @@ using namespace std;
 
 void Create_Mass(int *mass,int size) {
 
-    for (int i = 1; i <= size; i++) {
+    for (int i = 0; i < size; i++) {
 
         cout << "Введите значение " << i << " элемента:";
         cin >> mass[i];
@@ -16,7 +16,7 @@ void Create_Mass(int *mass,int size) {
 
 void Show_Mass(int *mass, int size) {
 
-    for (int i = 1; i <= size; i++) {
+    for (int i = 0; i < size; i++) {
 
         cout << "Значение " << i << " элемента:";
         cout << mass[i];
@@ -29,7 +29,7 @@ void Sum_Mass(int *mass, int size) {
 
     int sum = 0;
 
-    for (int i = 1; i <= size; i++) {
+    for (int i = 0; i < size; i++) {
 
         sum = sum + mass[i];
         cout << endl;
